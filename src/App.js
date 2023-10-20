@@ -1,11 +1,12 @@
 import React from "react";
 import Todo from "./components/Todo";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
- 
       <Todo />
+      <Footer />
     </div>
   );
 }
